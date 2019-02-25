@@ -1,6 +1,8 @@
 var shuffleSequence = seq("intro", "instructions", "training1", "1question", sepWith("sep", rshuffle(startsWith("question"))));
 var practiceItemTypes = ["practice"];
 
+var completionMessage = "Your answers have been recorded. For SurveyCircle users, the redeem code is: Z4CS-4G1N-LJLP-W4UG. Thank your participation! You can safely close this window now.";
+
 var defaults = [
     "Separator", {
         transfer: 1000,
