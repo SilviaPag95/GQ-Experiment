@@ -1,7 +1,7 @@
 var shuffleSequence = seq("intro", "instructions", "training1", "break", "1question", sepWith("sep", rshuffle(startsWith("question"))));
 var practiceItemTypes = ["practice"];
 
-var completionMessage = "Your answers have been recorded. For SurveyCircle users, the redeem code is: Z4CS-4G1N-LJLP-W4UG. Thank your participation! You can safely close this window now.";
+var completionMessage = "Your answers have been recorded. For SurveyCircle users (www.surveycircle.com): The Survey Code is: NPWZ-ENJ1-P5JH-TLU8. Thank your participation! You can safely close this window now.";
 
 var defaults = [
     "Separator", {
