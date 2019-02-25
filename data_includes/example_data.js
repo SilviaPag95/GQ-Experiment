@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", "instructions", "training1", "1question", sepWith("sep", rshuffle(startsWith("question"))));
+var shuffleSequence = seq("intro", "instructions", "training1", "break", "1question", sepWith("sep", rshuffle(startsWith("question"))));
 var practiceItemTypes = ["practice"];
 
 var completionMessage = "Your answers have been recorded. For SurveyCircle users, the redeem code is: Z4CS-4G1N-LJLP-W4UG. Thank your participation! You can safely close this window now.";
@@ -45,6 +45,10 @@ var items = [
 
     ["training2", "Training", {
       html: {include: "TrainingItem2.html"},
+    } ],
+    
+    ["break", "Form", {
+        html: {include: "break.html"},
     } ],
                 
     ["1question", "FormBIS", {
