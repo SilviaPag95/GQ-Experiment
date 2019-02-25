@@ -9,6 +9,7 @@ body {
 .sending-results {
     font-weight: bold;
     font-size: medium;
+    width: 40em;
 }
 div.bar-container {
     border: 1px solid;
